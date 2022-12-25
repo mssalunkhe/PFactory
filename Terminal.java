@@ -11,7 +11,7 @@ public class Terminal {
     private Stock myStock = new Stock();
     private Menu myMenu = new Menu();
 
-    //private List<Order> orderList= new ArrayList<>();
+    
     public Terminal(int id) {
         this.terminal_id=id;
     }
@@ -30,7 +30,7 @@ public class Terminal {
 
     }
     public void setStock()  {
-        //Menu myMenu = new Menu();
+        
         myStock.setMyStock();
         myStock.display();
 
@@ -119,11 +119,6 @@ public class Terminal {
         return sr;
         }
 
-    /*public void addOrder(Order ord){
-        this.orderList.add(ord);
-        System.out.println("Your order is placed. Please wait for a while.");
-
-    }*/
     //deduce the order quantity from the stock
     public boolean processOrder(Order ord) {
             //see if there is sufficient stock available
