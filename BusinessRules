@@ -1,0 +1,1 @@
+This class checks business rules of the pizza factory terminal. An order has to follow these rules to get committed.
